@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.menu-bg {
+  background-color: #000511;
+}
+.menu {
+  display: flex;
+  max-width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu nav ul {
+  display: flex;
+}
+.menu nav li {
+  text-decoration: none;
+  margin-left: 50px;
+  list-style: none;
+}
+.menu nav a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-family: 'Finger Paint';
+  color: #FFF5D6;
+}
+.menu nav a:hover {
+  color: #D96153;
+}
+.logo {
+  margin-left: 30px;
+}
+.apresentacao {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.apresentacao p {
+  color: #FFF5D6;
+  font-size: 50px;
+  font-family: 'Finger Paint';
+  padding: 10px;
+}
+#hi {
+  color: #FFF5D6;
+}
+#name {
+  color: #84BFC3;
+  font-size: 80px;
+  margin-top: -50px;
+}
+#front {
+  color: #FFB870;
+  margin-top: -70px;
+  font-size: 30px;
+}
+#button {
+  margin-top: -30px;
+  margin-bottom: 50px;
+}
+#button a {
+  color: #FFF5D6;
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: -70px;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+#button a:hover {
+  color: #D96153;
+}
+section {
+  height: 1000px;
+  background-color: #FFF5D6;
+}
+footer-bg footer {
+  background-color: #000511;
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  font-size: 25px;
+  font-family: 'Finger Paint';
+  color: #FFB870;
+}
+@media (max-width:1000px) {
+  .menu {
+    padding: 0px 30px;
+  }
+  .logo {
+    width: 30px;
+    margin-left: 10px;
+  }
+  .menu nav ul li {
+    margin-left: 10px;
+  }
+}
+@media (max-width:700px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+  }
+  .logo {
+    width: 30px;
+    margin-top: 30px;
+  }
+  .menu nav ul li a {
+    font-size: 20px;
+  }
+  .menu nav li {
+    margin-top: 20px;
+  }
+  #hi {
+    font-size: 30px;
+  }
+  #name {
+    color: #84BFC3;
+    font-size: 40px;
+  }
+  #front {
+    font-size: 20px;
+    margin-top: -50px;
+  }
+  #button a {
+    font-size: 20px;
+  }
+}
